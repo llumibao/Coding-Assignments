@@ -72,22 +72,21 @@
 
 /** HEADER **/
 #header-nav {
-  background-color: gray;
+  background-color: #dcf5f4;
   border-radius: 0;
   border: 0;
 }
 
 .navbar-brand {
-  padding-top: 5px;
+  padding-top: 25px;
 }
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Helvetica', serif;
   color: black;
-  font-size: 1.5em;sform: uppercase;
-  text-tran
+  font-size: 1.5em;
+  text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
@@ -99,7 +98,7 @@
   margin-top: 10px;
 }
 #nav-list a {
-  color: gray;
+  color: #dcf5f4;
   text-align: center;
 }
 #nav-list a:hover {
