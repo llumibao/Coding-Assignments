@@ -24,7 +24,7 @@ h1 {
 }
 
 #nav-list li:hover {
-	background-color: #bfbfbf;
+	background-color: #e7e7e7;
 }
 
 h2 {
@@ -41,7 +41,7 @@ article {
 
 @media (max-width:  768px) {
 	ul li {
-		background-color: #cce6ff;
+		background-color: #e6e6e6;
 	}
 	#collapsable-nav {
 		overflow: hidden;
