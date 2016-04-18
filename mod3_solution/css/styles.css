@@ -5,6 +5,7 @@ body {
 h1 {
 	position:relative;
 	top:-8px;
+	font-weight: bold;
 }
 
 .navbar-toggle {
