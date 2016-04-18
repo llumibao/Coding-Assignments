@@ -1,75 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Food LLC</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=ege">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+
+	<title>Mod3_Solution</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
 <body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-          <div class="navbar-brand">
-            <a href="index.html"><h1>Food, LLC</h1></a>
-          </div>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<h1>Food, LLC</h1>
+				</div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="menu-categories.html">
-               <br class="hidden-xs"> Chicken</a>
-            </li>
-            <li>
-              <a href="#">
-                <br class="hidden-xs"> Beef</a>
-            </li>
-            <li>
-              <a href="#">
-                <br class="hidden-xs"> Sushi</a>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
-  </header>
-<h1>Our Menu</h1>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+					<span class="glyphicon glyphicon-menu-down"></span>
+				</button>
+			</div>
 
-<div class="row">
-    <div class="col-lg-4 col-md-6">
-        <section><p id="chicken">Chicken</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</p>
-        </section>
-    </div> 
-
-    <div class="col-lg-4 col-md-6">
-        <section><p id="beef">Beef</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</p>
-        </section>
-    </div>
-
-    <div class="col-lg-4 col-md-12">
-        <section><p id="sushi">Sushi</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</p>
-        </section>
-    </div>
-</div>
-
-
-
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right hidden-sm hidden-md hidden-lg">
+						<li>
+							<a href="#chicken">Chicken</a>
+						</li>
+						<li>
+							<a href="#beef">Beef</a>
+						</li>
+						<li>
+							<a href="#sushi">Sushi</a>
+						</li>
+					</ul>
+				</div>
+		</nav>
+	</header>
+	<div id="articles" class="container">
+		<h2 class="text-center">Our Menu</h2>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<article id="chicken">
+					<h3 class="text-center">Chicken</h3>
+					<p>
+		Aenean ullamcorper risus finibus finibus ultricies. Ut interdum ultricies eleifend. Donec porttitor sed massa ut imperdiet. In vel fermentum quam. Cras rutrum eu sapien ut aliquam. Ut laoreet arcu non ipsum aliquet tincidunt. Integer gravida, mi et elementum vulputate, diam lectus molestie neque, eu porttitor augue elit quis tortor. Pellentesque elementum sed enim eu porttitor. Curabitur sed augue at lectus tempus rutrum non sit amet elit. In mollis nunc malesuada mattis lacinia. Donec dapibus tellus metus, at faucibus ex convallis vitae. Mauris porta nibh vel fermentum mattis. Vestibulum eu libero volutpat, posuere justo ac, ornare leo. Mauris scelerisque id mi vel tincidunt. Donec porttitor, elit egestas auctor accumsan, nulla leo sagittis risus, placerat bibendum mauris nibh sollicitudin justo. Nulla ornare quis ipsum et tempus.</p>
+				</article>
+			</div>
+			<div  class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<article id="beef">
+					<h3 class="text-center">Beef</h3>
+					<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum nulla at vestibulum finibus. Phasellus sit amet tempus mauris. Aliquam malesuada auctor sagittis. Morbi fermentum, metus vitae pharetra consectetur, diam eros blandit elit, nec blandit erat risus quis tellus. Sed facilisis dui eget felis convallis semper. In hac habitasse platea dictumst. Praesent mollis ut lacus in placerat. Proin vitae porta sem. Suspendisse molestie dui metus, nec sodales diam consectetur id. Suspendisse tincidunt et dolor vel iaculis. Sed varius, magna eu feugiat fermentum, augue nisi lacinia mi, a vehicula massa lacus convallis urna. Sed sapien libero, consequat sed mauris non, bibendum venenatis massa. Pellentesque auctor, ligula ac rhoncus iaculis, purus urna bibendum purus, a luctus ex elit nec sapien. Ut ornare volutpat tortor, id pellentesque turpis ultricies ut.</p>
+				</article>
+			</div>
+			<div  class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<article id="sushi">
+					<h3 class="text-center">Sushi</h3>
+					<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique lectus odio, ac tincidunt nibh volutpat et. Aliquam ac nibh blandit, viverra mi at, venenatis mi. Nam dapibus metus non lectus lobortis, ac dignissim odio tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus pretium nisl tortor, eu aliquam nibh sollicitudin eget. Nunc vulputate blandit condimentum. Phasellus ac nulla tempor, aliquet velit quis, tempus augue. Cras ultrices odio tortor. Pellentesque maximus finibus pretium. Donec molestie sem eros, sit amet finibus est sollicitudin ut. Fusce pretium a mauris quis ultricies. Pellentesque ex urna, egestas eget turpis ut, ornare imperdiet metus. Nam at dapibus urna. Phasellus in nunc in nisl dapibus tempus. Maecenas hendrerit tristique sagittis.</p>
+				</article>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
 
